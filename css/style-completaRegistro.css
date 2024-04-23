@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+  background-color: aqua;
+  padding: 1rem;
+  overflow: auto;
+  flex-direction: row;
+}
+
+.completar-registro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 60%;
+  padding: 1rem;
+  overflow: auto;
+  flex-wrap: nowrap;
+}
+
+.contenedor-datos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.foto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  padding: 1rem;
+  height: 350px;
+  width: 50%;
+}
+
+.foto img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  overflow: auto;
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 50%;
+  width: 50%;
+}
+
+.btn-cargar-foto {
+  color: deepskyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  height: 2rem;
+  width: 20rem;
+  overflow: auto;
+  border: 1px solid black;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+.btn-cargar-foto img {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  border: none; 
+  overflow: auto;
+  border-radius: 50px;
+}
+
+.datos {
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+}
